@@ -63,7 +63,7 @@ public class Music {
         this.genre = genre;
     }
     public String toString(){
-        String musicDetails=String.format("%10s |%8s |%5s |%6s |%12s |%-14s",title,artist,duration,albumName,releaseDate,genre);
-        return musicDetails;
+        String MusicDetails=String.format("%10s |%8s |%5s |%6s |%12s |%-14s",title,artist,duration,albumName,releaseDate,genre);
+        return MusicDetails;
     }
 }

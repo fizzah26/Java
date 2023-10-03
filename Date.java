@@ -35,10 +35,14 @@ public class Date {
         this.year = year;
     }
     public String toString(){
-        return String.format("%d/%d/%d",day,month,year);
+        String releaseDate=String.format("%d/%d/%d",day,month,year);
+        return releaseDate;
     }
 
     public Date isRecentDate(Date d1, Date d2){
         return  d1.getMonth()<d2.getMonth()?d2:d1;
     }
+
+
 }
+
