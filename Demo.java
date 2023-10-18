@@ -57,8 +57,13 @@ public class Demo {
         System.out.println("Enter genre:");
         String Genre=sc.next();
 
-        Music m1=new Music(Title,Artist,Duration,AlbumName,new Date (ReleaseDate,ReleaseMonth,ReleaseYear),Genre);
+       Music m1=new Music(Title,Artist,Duration,AlbumName,new Date (ReleaseDate,ReleaseMonth,ReleaseYear),Genre);
         System.out.println(m1);
+
+
+        Music m2=new Music(Title,Artist,Duration,AlbumName,new Date (ReleaseDate,ReleaseMonth,ReleaseYear),Genre);
+        System.out.println(m2);
+
 
 
 
